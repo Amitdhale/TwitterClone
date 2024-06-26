@@ -1,0 +1,44 @@
+.box{
+    width: 300px;
+    /* background-color: blue; */
+    height: 450px;
+    border-radius: 10px;
+    padding: 30px;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: transform 300ms ease-out;
+    cursor: pointer;
+}
+
+.selected{
+    background-color: var(--twitter-color);
+    border: none;
+}
+.box>h3{
+    font-weight: 400;
+    font-size: 1.5rem;
+
+}
+.plan_price{
+    display: flex;
+    gap: 0.2rem;
+    align-items: baseline;
+}
+.plan_price>h2{
+    margin: 0;
+    font-size: 2rem;
+}
+.description{
+    margin-top: 10px;
+}
+
+.single_description{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    
+}
+
+.box:hover{
+    transform: scale(1.02);
+}
